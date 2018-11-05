@@ -31,7 +31,7 @@
 Labels Labels::l10n = Labels();
 
 Labels::Labels() {
-    setLanguage("tr");
+    setLanguage("en");
 }
 
 void Labels::setLanguage(const std::string &language) {
