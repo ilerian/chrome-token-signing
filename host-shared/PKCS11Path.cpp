@@ -127,6 +127,8 @@ PKCS11Path::Params PKCS11Path::getPkcs11ModulePath() {
     static const std::string litPath = access(lit1Path.c_str(), F_OK) == 0 ? lit1Path : lit2Path;
     static const std::string belPath("libbeidpkcs11.so.0");
     static const std::string eTokenPath("/usr/local/lib/libeTPkcs11.dylib");
+    static const std::string acsPath("/lib/libacospkcs11.so");
+    static const std::string akisPath("/usr/lib/libpkcs11wrapper.so");
     static const std::string ocsPath("/usr/local/AWP/lib/libOcsCryptoki.so");
 #endif
     static const std::map<std::string, Params> m = {

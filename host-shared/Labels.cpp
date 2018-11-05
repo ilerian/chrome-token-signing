@@ -51,7 +51,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("RU"),
         T("LT"),
         T("LV"),
-		T("TR")
+        T("TR")
     } },
     { "auth PIN", {
         T("Autentimiseks sisesta @PIN@:"),
@@ -59,7 +59,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("Для идентификации введите @PIN@-код:"),
         T("Norėdami patvirtinti tapatybę, įveskite @PIN@:"),
         T("Lai autentificētos, ievadi @PIN@:"),
-		T("Kimlik doğrulaması için @PIN@ girin:"),
+        T("Kimlik doğrulaması için @PIN@ girin:"),
     } },
     { "auth PIN pinpad", {
         T("Autentimiseks sisesta @PIN@ kaardilugeja sõrmistikult"),
@@ -67,7 +67,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("Для идентификации введите @PIN@-код при помощи клавиатуры"),
         T("Norėdami patvirtinti tapatybę, įveskite @PIN@, pasinaudodami klaviatūra"),
         T("Lai autentificētos, ievadi @PIN@ no PIN ievades ierīces"),
-		T("Kimlik doğrulaması için PIN pad'den @PIN@ girin"),
+        T("Kimlik doğrulaması için PIN pad'den @PIN@ girin"),
     } },
     { "sign PIN", {
         T("Allkirjastamiseks sisesta @PIN@:"),
@@ -75,7 +75,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("Для подписания введите @PIN@:"),
         T("Norėdami pasirašyti, įveskite @PIN@ kodą:"),
         T("Lai parakstītu, ievadi @PIN@:"),
-		T("İmzalamak için @PIN@ girin:"),
+        T("İmzalamak için @PIN@ girin:"),
     } },
     { "sign PIN pinpad", {
         T("Allkirjastamiseks sisesta @PIN@ kaardilugeja sõrmistikult"),
@@ -83,7 +83,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("Для подписания введите @PIN@ с PIN-клавиатуры"),
         T("Norėdami pasirašyti, įveskite PIN kodą @PIN@ klaviatūros pagalba"),
         T("Lai parakstītu, ievadi @PIN@ paredzētajā PIN ievades ierīcē"),
-	T("İmzalamak için PIN pad'den @PIN@ girin"),
+    T("İmzalamak için PIN pad'den @PIN@ girin"),
     } },
     { "tries left", {
         T("Katseid jäänud:"),
@@ -91,7 +91,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("Возможных попыток:"),
         T("Liko bandymų:"),
         T("Atlikuši mēģinājumi:"),
-	T("Kalan deneme sayısı:"),
+    T("Kalan deneme sayısı:"),
     } },
     { "incorrect PIN2", {
         T("Vale PIN! "),
@@ -99,7 +99,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("Неправильный PIN! "),
         T("Neteisingas PIN! "),
         T("Nepareizs PIN! "),
-	T("Yanlış PIN! "),
+        T("Yanlış PIN! "),
     } },
     { "PIN2 blocked", {
         T("PIN2 blokeeritud, ei saa allkirjastada!"),
@@ -107,7 +107,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("PIN2 блокирован, невозможно подписать!"),
         T("PIN2 užblokuotas, pasirašymas negalimas!"),
         T("PIN2 bloķēts, nav iespējams parakstīt!"),
-		T("PIN2 engellendi, imzalanamıyor!"),
+        T("PIN2 engellendi, imzalanamıyor!"),
     } },
     { "error", {
         T("Viga"),
@@ -115,7 +115,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("Ошибка"),
         T("Klaida"),
         T("Kļūda"),
-		T("Hata"),
+        T("Hata"),
     } },
     { "cancel", {
         T("Katkesta"),
@@ -123,7 +123,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("Отменить"),
         T("Atšaukti"),
         T("Atcelt"),
-		T("İptal"),
+        T("İptal"),
     } },
     { "select certificate", {
         T("Sertifikaadi valik"),
@@ -131,7 +131,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("Выбор сертификата"),
         T("Pasirinkite sertifikatą"),
         T("Izvēlēties sertifikātu"),
-		T("Sertifika seç"),
+        T("Sertifika seç"),
     } },
     { "select", {
         T("Vali"),
@@ -139,7 +139,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("Выбрать"),
         T("Pasirinkti"),
         T("Izvēlēties"),
-	    T("Seç"),
+        T("Seç"),
     } },
     { "certificate", {
         T("Sertifikaat"),
@@ -147,7 +147,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("Сертификат"),
         T("Sertifikatas"),
         T("Sertifikāts"),
-		T("Sertifika"),
+        T("Sertifika"),
     } },
     { "type", {
         T("Tüüp"),
@@ -155,7 +155,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("Тип"),
         T("Tipas"),
         T("Tips"),
-		T("Tip"),
+        T("Tip"),
     } },
     { "valid to", {
         T("Kehtiv kuni"),
@@ -163,7 +163,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("Действительный до"),
         T("Galioja iki"),
         T("Derīgs līdz"),
-	T("Geçerlilik"),
+        T("Geçerlilik"),
     } },
     { "cert info", {
         T("Sertifikaadi valikuga nõustun oma nime ja isikukoodi edastamisega teenusepakkujale."),
@@ -171,7 +171,7 @@ Labels::lstring Labels::get(const std::string &labelKey) const {
         T("Выбирая сертификат, я соглащаюсь с тем, что мое имя и личный код будут переданы представителю услуг."),
         T("Pasirinkdama(s) sertifikatą, aš sutinku, kad mano vardas, pavardė ir asmens kodas būtų perduoti e. paslaugos teikėjui."),
         T("Izvēloties sertifikātu, es apstiprinu, ka mans vārds un personas kods tiks nosūtīts pakalpojuma sniedzējam."),
-	T("Bir sertifika seçerek ismimin ve kimlik numaramın servis sağlayıcıya gönderileceğini kabul ediyorum."),
+        T("Bir sertifika seçerek ismimin ve kimlik numaramın servis sağlayıcıya gönderileceğini kabul ediyorum."),
     } }
     };
     return labels.at(labelKey).at(selectedLanguage);
