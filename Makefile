@@ -45,3 +45,4 @@ pkg: build-signed pkg-unsigned
 
 test: build
 	python host-test\pipe-test.py -v
+	
