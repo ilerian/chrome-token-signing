@@ -112,7 +112,7 @@ int main(int argc, char **argv)
 					}
 				}
 				unique_ptr<Signer> signer(Signer::createSigner(cert));
-				if (!signer->showInfo(info))
+				if (!signer->showInfo(jsonRequest.get<string>("info", string())))
 					throw UserCancelledException();
 
 				if (hashcountStr.compare("") == 0) { //single signing
@@ -148,8 +148,7 @@ int main(int argc, char **argv)
 		catch (const InvalidArgumentException &e)
 		{
 			_log("Handling exception: %s", e.getErrorCode());
-			jsonResponse << "result" << e.getErrorCode() << "message" << e.what();
-			sendMessage(jsonResponse.json());
+			sendMessage((Object() << "result" << e.getErrorCode() << "message" << e.what()).json());
 			return EXIT_FAILURE;
 		}
 		catch (const BaseException &e) {

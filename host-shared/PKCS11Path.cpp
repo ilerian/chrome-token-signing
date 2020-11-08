@@ -138,7 +138,6 @@ PKCS11Path::Params PKCS11Path::getPkcs11ModulePath() {
     static const std::map<std::string, Params> m = {
 #ifdef _WIN32
         {"3BFD1800008031FE4553434536302D43443134352D46CD", {"C:\\Windows\\System32\\aetpkss1.dll", "PIN", "PIN"}},
-
 #else
         {"3BFE1800008031FE454573744549442076657220312E30A8", {estPath, "PIN1", "PIN2"}}, //ESTEID_V3_COLD_DEV1_ATR
         {"3BFE1800008031FE45803180664090A4561B168301900086", {estPath, "PIN1", "PIN2"}}, //ESTEID_V3_WARM_DEV1_ATR
