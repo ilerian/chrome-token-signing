@@ -186,6 +186,7 @@ static NSTouchBarItemIdentifier touchBarItemCancelId = @"ee.ria.chrome-token-sig
         for (const PKCS11CardManager::Token &token : pkcs11->tokens()) {
             if (BinaryUtils::hex2bin(cert.UTF8String) == token.cert) {
                 selected = token;
+                selected.minPinLen = 4;
                 break;
             }
         }
