@@ -12,6 +12,7 @@
 	<array>
 		<string>/private/etc/eToken.conf</string>
 		<string>/private/etc/eToken.common.conf</string>
+		<string>/usr/local/lib/libakisp11.dylib</string>
 	</array>
 	<key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
 	<array>
